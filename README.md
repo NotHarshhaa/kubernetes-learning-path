@@ -13,10 +13,10 @@ The Kubernetes Learning Roadmap is constantly updated with new content, so you c
 - [Kubernetes Learning Prerequisites](#kubernetes-learning-prerequisites)
 - [Learn Kubernetes Architecture](#learn-kubernetes-architecture)
 - [$1000+ Free Cloud Credits to Launch Clusters](#1000-free-cloud-credits-to-launch-clusters)
-- [Learn Kubernetes Cluster Setup & Administration](#learn-kubernetes-cluster-setup-administration)
+- [Learn Kubernetes Cluster Setup & Administration](#learn-kubernetes-cluster-setup--administration)
 - [Understand KubeConfig File](#understand-kubeconfig-file)
 - [Understand Kubernetes Objects And Resources](#understand-kubernetes-objects-and-resources)
-- [Learn About Pod & Associated Resources](#learn-about-pod-associated-resources)
+- [Learn About Pod & Associated Resources](#learn-about-pod--associated-resources)
 - [Learn About Pod Dependent Objects](#learn-about-pod-dependent-objects)
 - [Deploy End to End Application on Kubernetes](#deploy-end-to-end-application-on-kubernetes)
 - [Learn About Securing Kubernetes Cluster](#learn-about-securing-kubernetes-cluster)
@@ -110,7 +110,7 @@ Also, setting up servers on this platform is very easy and every cloud provider 
 
 ## Learn Kubernetes Cluster Setup & Administration
 
-### Kubernetes Cluster Setup
+**Kubernetes Cluster Setup**
 
 As DevOps engineers, it is very important to learn every component and cluster configuration. While there are many options to deploy a Kubernetes cluster, It is always better to learn to deploy multi-node clusters from scratch.
 
@@ -130,7 +130,7 @@ Following are my cluster setup suggestions.
 
 5. **Vagrant Automated Kubernetes**: If you prefer to have a multi-VM-based local Kubernetes cluster setup, you can try the automated vagrant setup that uses Kubeadm to bootstrap the cluster.
 
-### Learn About Cluster Configurations
+**Learn About Cluster Configurations**
 
 Once you have a working cluster, you should learn about the key cluster configurations. This knowledge will be particularly helpful when working in a self-hosted Kubernetes setup.
 
