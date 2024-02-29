@@ -36,13 +36,13 @@ In this Kubernetes learning roadmap, I have added prerequisites and complete **K
 
 ## Kubernetes Certification Coupon (Cyber Monday Sale is Live 🎉)
 
-- 🚀  CKA, CKAD, CKS, or KCNA exam aspirants can **save 40%** today using code **LUNAR24** at https://kube.promo/cyber. It is a limited-time offer from the Linux Foundation.
-C**
-The following are the best bundles to **save Extra Discount** with code **LUNAR24**
+- 🚀  CKA, CKAD, CKS, or KCNA exam aspirants can **save $115** today using code **LEAP24COM** at https://kube.promo/devops. It is a limited-time offer from the Linux Foundation.
 
-- CKA + CKAD + CKS Exam bundle ($506 Savings): [kube.promo/k8s-bundle](https://kube.promo/k8s-bundle)
-- CKA + CKS Bundle ($355 Savings) [kube.promo/bundle](https://kube.promo/bundle)
-- KCNA + CKA ( $288 Savings) [kube.promo/kcka-bundle](https://kube.promo/kcna-cka)
+The following are the best bundles to **save Extra Discount** with code **LEAPMORE24COM**
+
+- CKA + CKAD + CKS Exam bundle ($636 Savings): [kube.promo/k8s-bundle](https://kube.promo/k8s-bundle)
+- CKA + CKS Bundle ($428 Savings) [kube.promo/bundle](https://kube.promo/bundle)
+- KCNA + CKA ( $348 Savings) [kube.promo/kcka-bundle](https://kube.promo/kcna-cka)
 
 >Note: You have one year of validity to appear for the certification exam after registration
 
