@@ -1,5 +1,9 @@
 # Learn Kubernetes from scratch (Beginner to Advanced level)
 
+## 🎖️ Credits: [DevOpsCude](https://devopscube.com)
+
+> 💚 Thanks for the Beautiful article from [Bibin](https://devopscube.com/author/bibinwilson/) ✍️ | [Orginal Blog/Post](https://devopscube.com/learn-kubernetes-complete-roadmap) 
+
 ![k8s](https://imgur.com/G3CQTK4.png)
 
 The Kubernetes Learning Roadmap is constantly updated with new content, so you can be sure that you're getting the latest and most up-to-date information available.
