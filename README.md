@@ -2,7 +2,7 @@
 
 ## 🎖️ Credits: [DevOpsCude](https://devopscube.com)
 
-> 💚 Thanks for the Beautiful article from [Bibin](https://devopscube.com/author/bibinwilson/) ✍️ | [Orginal Blog/Post](https://devopscube.com/learn-kubernetes-complete-roadmap) 
+> 💚 Thanks for the Beautiful article from [Bibin](https://devopscube.com/author/bibinwilson/) ✍️ | [Orginal Blog/Post](https://devopscube.com/learn-kubernetes-complete-roadmap)
 
 ![k8s](https://imgur.com/G3CQTK4.png)
 
@@ -10,10 +10,9 @@ The Kubernetes Learning Roadmap is constantly updated with new content, so you c
 
 ![k8s-roadmap](https://imgur.com/OLMdlsr.png)
 
-## Table of Contents
+### Table of Contents
 
 - [Kubernetes Learning Roadmap](#kubernetes-learning-roadmap)
-- [Kubernetes Certification Coupon](#kubernetes-certification-coupon)
 - [Kubernetes Learning Prerequisites](#kubernetes-learning-prerequisites)
 - [Learn Kubernetes Architecture](#learn-kubernetes-architecture)
 - [$1000+ Free Cloud Credits to Launch Clusters](#1000-free-cloud-credits-to-launch-clusters)
@@ -26,29 +25,49 @@ The Kubernetes Learning Roadmap is constantly updated with new content, so you c
 - [Learn About Securing Kubernetes Cluster](#learn-about-securing-kubernetes-cluster)
 - [Learn About Kubernetes Operator Pattern](#learn-about-kubernetes-operator-pattern)
 - [Learn Important Kubernetes Configurations](#learn-important-kubernetes-configurations)
-- [Learn Kubernetes Best Practices](#learn-kubernetes-best-practices)
+- [Learn Kubernetes Production Best Practices](#learn-kubernetes-production-best-practices)
 - [Real-World Kubernetes Case Studies](#real-world-kubernetes-case-studies)
 - [Kubernetes Failures/Learnings](#kubernetes-failureslearnings)
 - [Kubernetes Deployment Tools (GitOps Based)](#kubernetes-deployment-tools-gitops-based)
 
+---
+
+### Additional New Section 2024 - Table of Contents
+
+1. [Advanced Kubernetes Networking](#1-advanced-kubernetes-networking)
+   - [Service Mesh Overview](#service-mesh-overview)
+   - [Network Policies Deep Dive](#network-policies-deep-dive)
+   - [Ingress Controllers Comparison](#ingress-controllers-comparison)
+2. [Kubernetes Observability and Monitoring](#2-kubernetes-observability-and-monitoring)
+   - [Monitoring Setup](#monitoring-setup)
+   - [Distributed Tracing](#distributed-tracing)
+   - [Log Aggregation](#log-aggregation)
+3. [Advanced Cluster Management and Maintenance](#3-advanced-cluster-management-and-maintenance)
+   - [Automated Scaling](#automated-scaling)
+   - [Backup and Disaster Recovery](#backup-and-disaster-recovery)
+   - [Cluster Upgrades](#cluster-upgrades)
+4. [Security Best Practices](#4-security-best-practices)
+   - [Zero-Trust Networking](#zero-trust-networking)
+   - [Securing Workloads with Pod Security Policies (PSP)](#securing-workloads-with-pod-security-policies-psp)
+   - [Image Security](#image-security)
+   - [Secrets Management](#secrets-management)
+5. [Application Deployment Strategies](#5-application-deployment-strategies)
+   - [Advanced GitOps](#advanced-gitops)
+   - [Blue-Green Deployments](#blue-green-deployments)
+   - [Canary Releases](#canary-releases)
+6. [Troubleshooting Kubernetes Clusters](#6-troubleshooting-kubernetes-clusters)
+   - [Common Issues and Solutions](#common-issues-and-solutions)
+   - [Kubernetes Debugging Tools](#kubernetes-debugging-tools)
+   - [CrashLoopBackOff and OOMKill Handling](#crashloopbackoff-and-oomkill-handling)
+7. [Additional Resources](#7-additional-resources)
+   - [Certification Study Guides](#certification-study-guides)
+   - [Community and News Sources](#community-and-news-sources)
 
 ## Kubernetes Learning Roadmap
 
 **Learning Kubernetes** can seem overwhelming. It’s a complex container orchestration system, that has a steep learning curve. But with the right roadmap and understanding of the foundational concepts, it’s something that any developer or ops person can learn.
 
 In this Kubernetes learning roadmap, I have added prerequisites and complete **Kubernetes learning path** covering basic to advanced Kubernetes concepts.
-
-## Kubernetes Certification Coupon (Cyber Monday Sale is Live 🎉)
-
-- 🚀  CKA, CKAD, CKS, or KCNA exam aspirants can **save $115** today using code **LEAP24COM** at https://kube.promo/devops. It is a limited-time offer from the Linux Foundation.
-
-The following are the best bundles to **save Extra Discount** with code **LEAPMORE24COM**
-
-- CKA + CKAD + CKS Exam bundle ($636 Savings): [kube.promo/k8s-bundle](https://kube.promo/k8s-bundle)
-- CKA + CKS Bundle ($428 Savings) [kube.promo/bundle](https://kube.promo/bundle)
-- KCNA + CKA ( $348 Savings) [kube.promo/kcka-bundle](https://kube.promo/kcna-cka)
-
->Note: You have one year of validity to appear for the certification exam after registration
 
 ## Kubernetes Learning Prerequisites
 
@@ -69,16 +88,16 @@ Before jumping into learning kubernetes, you need to have a fair amount of knowl
 7. **Service Discovery**: It is one of the key areas of Kubernetes. You need to have basic knowledge of client-side and server-side service discovery. To put it simply, in client-side service discovery, the request goes to a service registry to get the endpoints available for backend services. In server-side service discovery, the request goes to a load balancer and the load balancer uses the service registry to get the ending of backend services.
 
 8. **Networking Basis**
-    * CIDR Notation & Type of IP Addresses
-    * L3, L4 & L7 Layers (OSI Layers)
-    * SSL/TLS: One way & Mutual TLS
-    * Proxy
-    * DNS
-    * IPTables
-    * IPVS
-    * Software Defined Networking (SDN)
-    * Virtual Interfaces
-    * Overlay networking
+    - CIDR Notation & Type of IP Addresses
+    - L3, L4 & L7 Layers (OSI Layers)
+    - SSL/TLS: One way & Mutual TLS
+    - Proxy
+    - DNS
+    - IPTables
+    - IPVS
+    - Software Defined Networking (SDN)
+    - Virtual Interfaces
+    - Overlay networking
 
 ## Learn Kubernetes Architecture
 
@@ -93,7 +112,7 @@ Check out the Kubernetes Architecture guide to learn about all the Kubernetes co
 Overall you need to learn the following:
 
 1. **Control plane components**: Understand the role of each component like API server, etcd, Scheduler, and Controller manager.
-    
+
 2. **Worker node components**: Learn about Kube Proxy, Kubelet, Container Runtime
 
 3. **Addon Components**: CoreDNS, Network plugins (Calico, weave, etc), Metric Server
@@ -178,11 +197,11 @@ You should learn all the Pod concepts and their associated objects like Service,
 
 First, learn about the Pod Resource Definition (YAML). A typical Pod YAML contains the following high-level constructs.
 
-* Kind
-* Metadata
-* Annotations
-* Labels
-* Selectors
+- Kind
+- Metadata
+- Annotations
+- Labels
+- Selectors
 
 Once you have a basic understanding of the above, move on to hands-on learning. These concepts will make more sense when you do hands-on.
 
@@ -250,7 +269,7 @@ Following the native ways of implementing security in kubernetes.
 2. Pod Security Context
 3. Seccomp & AppArmor
 4. Role Based Access Control (RBAC)
-5. Attribute-based access control (ABAC) 
+5. Attribute-based access control (ABAC)
 6. Network Policies
 
 The following are the open-source tools you need to look at.
@@ -299,9 +318,9 @@ Following are the resources that might help and add value to the Kubernetes lear
 2. **Kubernetes Failure Stories**: Kubernetes failure stories is a website that has a list of articles that talk about failures in Kubernetes implementation. If you read those stories, you can avoid those mistakes in your kubernetes implementation.
 
 3. **Case Studies From Organizations**: Spend time on use cases published by organizations on Kubernetes usage and scaling. You can learn a lot from them. Following are some of the case studies that are worth reading.
- 
-   * Scheduling 300,000 Kubernetes Pods in Production Daily
-   * Scaling Kubernetes to 7,500 Nodes
+
+   - Scheduling 300,000 Kubernetes Pods in Production Daily
+   - Scaling Kubernetes to 7,500 Nodes
 
 ## Real-World Kubernetes Case Studies
 
@@ -323,7 +342,7 @@ Here are some good real-world Kubernetes case studies that can enhance your Kube
 
 ## Kubernetes Deployment Tools (GitOps Based)
 
-GitOps is a technical practice that uses Git as a single source of truth for declarative infrastructure and application code. 
+GitOps is a technical practice that uses Git as a single source of truth for declarative infrastructure and application code.
 
 - [Guide to GitOps](https://www.weave.works/technologies/gitops/)<sup>Official Doc</sup>
 
@@ -334,7 +353,166 @@ Some popular GitOps-based tools for deploying applications to Kubernetes cluster
 - [FluxCD](https://fluxcd.io/)<sup>Official Doc</sup>
 - [JenkinsX](https://jenkins-x.io/)<sup>Official Doc</sup>
 
-# Hit the Star! ⭐
-***If you are planning to use this repo for learning, please hit the star. Thanks!***
+## Additional New Section 2024 Content:-
 
-#### Author by [Harshhaa Reddy](https://github.com/NotHarshhaa)
+### 1. Advanced Kubernetes Networking
+
+#### Service Mesh Overview
+
+- **Description**: Service meshes help manage microservices networking by abstracting complex traffic management (routing, load balancing, retries, etc.).
+- **Popular Tools**: Istio, Linkerd, and Consul.
+- **Use Cases**: Improved resilience, observability, security, and traffic control.
+
+#### Network Policies Deep Dive
+
+- **Description**: Network policies allow admins to define allowed connections between pods and namespaces, enhancing security.
+- **Example**: Create policies to block or allow traffic within namespaces, useful for internal and external isolation.
+
+#### Ingress Controllers Comparison
+
+- **Overview**: Explore NGINX Ingress, Traefik, and HAProxy, discussing pros and cons and optimal use cases.
+- **Setup and Examples**: Walkthrough on setting up each Ingress Controller with example configurations for HTTP and HTTPS routing.
+
+---
+
+### 2. Kubernetes Observability and Monitoring
+
+#### Monitoring Setup
+
+- **Description**: Setting up Prometheus and Grafana for comprehensive monitoring and visualization.
+- **Key Metrics**: Pod CPU/memory usage, node health, and custom metrics.
+- **Setup Guide**: Installation, configuration, and Grafana dashboard examples for Kubernetes clusters.
+
+#### Distributed Tracing
+
+- **Overview**: Explanation of distributed tracing and its importance in monitoring microservices.
+- **Setup**: Guide to integrating Jaeger or OpenTelemetry with a sample application.
+- **Visualization**: View and analyze request traces across services to identify bottlenecks.
+
+#### Log Aggregation
+
+- **Introduction**: Importance of centralized log management.
+- **Stack Setup**: Setting up an EFK (Elasticsearch, Fluentd, Kibana) stack, with tips on log storage and retention.
+- **Best Practices**: Log rotation, alerting, and monitoring logs for Kubernetes events.
+
+---
+
+### 3. Advanced Cluster Management and Maintenance
+
+#### Automated Scaling
+
+- **Overview**: Types of scaling – Cluster Autoscaler, Horizontal Pod Autoscaler (HPA), and Vertical Pod Autoscaler (VPA).
+- **Setup Guide**: How to configure autoscalers, with scenarios and examples.
+
+#### Backup and Disaster Recovery
+
+- **Why It Matters**: Explanation of the importance of backups, especially for etcd (Kubernetes’ key-value store).
+- **Guide**: Steps for backing up etcd and restoring it, with disaster recovery plan best practices.
+
+#### Cluster Upgrades
+
+- **Description**: Overview of the upgrade process and planning.
+- **Procedure**: Step-by-step instructions for safely upgrading Kubernetes, managing node pools, and testing upgrades.
+
+---
+
+### 4. Security Best Practices
+
+#### Zero-Trust Networking
+
+- **Description**: Introduction to Zero-Trust principles in Kubernetes.
+- **Implementation**: Use network policies and mutual TLS (mTLS) to enforce zero-trust.
+
+#### Securing Workloads with Pod Security Policies (PSP)
+
+- **Overview**: How PSPs enforce security standards on containers (e.g., limiting root access, requiring certain security contexts).
+- **Examples**: Sample PSPs with detailed explanations for different security levels.
+
+#### Image Security
+
+- **Importance**: Why image security is critical.
+- **Tools and Setup**: Integration of Trivy or Clair to automate scanning and detect vulnerabilities.
+- **Example Workflow**: Setting up image scanning in a CI/CD pipeline.
+
+#### Secrets Management
+
+- **Best Practices**: Using Kubernetes secrets for sensitive data and avoiding hard-coded values.
+- **Vault Integration**: Step-by-step guide to integrating HashiCorp Vault for secrets management.
+
+---
+
+### 5. Application Deployment Strategies
+
+#### Advanced GitOps
+
+- **Overview**: Advanced GitOps concepts using tools like ArgoCD or Flux for continuous deployment.
+- **Examples**: Real-world examples of GitOps with features like rollback, progressive delivery, and A/B testing.
+
+#### Blue-Green Deployments
+
+- **What It Is**: Introduction to Blue-Green deployments to reduce downtime.
+- **Steps**: Walkthrough on creating a Blue-Green deployment in Kubernetes using Services and Ingress.
+
+#### Canary Releases
+
+- **Definition**: Canary releases gradually introduce updates to a small subset of users.
+- **Setup**: Using Argo Rollouts to implement canary releases, with sample configurations.
+
+---
+
+### 6. Troubleshooting Kubernetes Clusters
+
+#### Common Issues and Solutions
+
+- **Overview**: Addressing common issues like failing pods, crashed nodes, and failed deployments.
+- **Solutions**: Detailed steps for resolving each issue, including example scenarios and `kubectl` commands.
+
+#### Kubernetes Debugging Tools
+
+- **Tools Overview**: Tools like `kubectl-debug`, K9s, and kube-ops-view for monitoring and troubleshooting.
+- **Usage**: Example scenarios and tool usage for real-time issue identification.
+
+#### CrashLoopBackOff and OOMKill Handling
+
+- **Description**: Explanation of common pod errors, including CrashLoopBackOff and Out of Memory (OOM) issues.
+- **Resolution Steps**: How to identify, troubleshoot, and resolve these issues.
+
+---
+
+### 7. Additional Resources
+
+#### Certification Study Guides
+
+- **Exams Covered**: CKA (Certified Kubernetes Administrator), CKAD (Certified Kubernetes Application Developer), and CKS (Certified Kubernetes Security Specialist).
+- **Resources**: Links to official documentation, practice labs, and study guides.
+
+#### Community and News Sources
+
+- **News and Blogs**: Resources to stay updated with Kubernetes trends, like CNCF blog, Kubernetes Podcast, and KubeWeekly.
+- **Community Forums**: Links to Kubernetes Slack channels, Stack Overflow, and other communities for support.
+
+## Contribute and Collaborate
+
+> [!TIP]
+> This repository thrives on community contributions and collaboration. Here’s how you can get involved:
+>
+> - **Fork the Repository:** Create your own copy of the repository to work on.
+> - **Submit Pull Requests:** Contribute your projects or improvements to existing projects by submitting pull requests.
+> - **Engage with Others:** Participate in discussions, provide feedback on others’ projects, and collaborate to create better solutions.
+> - **Share Your Knowledge:** If you’ve developed a new project or learned something valuable, share it with the community. Your contributions can help others in their learning journey.
+
+## Join the Community
+
+> [!IMPORTANT]
+> We encourage you to be an active part of our community:
+>
+> - **Join Our Telegram Community:** Connect with fellow DevOps enthusiasts, ask questions, and share your progress in our [Telegram group](https://t.me/prodevopsguy).
+> - **Follow Me on GitHub:** Stay updated with new projects and content by [following me on GitHub](https://github.com/NotHarshhaa).
+
+## Hit the Star! ⭐
+
+**If you find this repository helpful and plan to use it for learning, please give it a star. Your support is appreciated!**
+
+### Author
+
+![Author Image](https://imgur.com/f4rBnpK.gif)
