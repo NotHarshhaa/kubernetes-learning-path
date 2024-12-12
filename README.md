@@ -107,7 +107,7 @@ As Kubernetes is a complex system, trying to understand the core architecture co
 
 Here is my suggestion. Learn the high-level architecture and key components involved in Kubernetes. If you are not able to grasp the concept, either you can spend time and do more research on a specific topic or you can learn the concept while doing hands-on. It’s your choice.
 
-Check out the Kubernetes Architecture guide to learn about all the Kubernetes components in detail.
+Check out the [Kubernetes Architecture guide](https://devopscube.com/kubernetes-architecture-explained/) to learn about all the Kubernetes components in detail.
 
 Overall you need to learn the following:
 
