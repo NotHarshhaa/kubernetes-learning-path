@@ -509,10 +509,30 @@ Some popular GitOps-based tools for deploying applications to Kubernetes cluster
 > - **Join Our Telegram Community:** Connect with fellow DevOps enthusiasts, ask questions, and share your progress in our [Telegram group](https://t.me/prodevopsguy).
 > - **Follow Me on GitHub:** Stay updated with new projects and content by [following me on GitHub](https://github.com/NotHarshhaa).
 
+## Code of Conduct
+
+> [!CAUTION]
+>
+> We are committed to fostering a welcoming and respectful environment for all contributors. Please take a moment to review our [Code of Conduct](./CODE_OF_CONDUCT.md) before participating in this community.
+
 ## Hit the Star! ⭐
 
 **If you find this repository helpful and plan to use it for learning, please give it a star. Your support is appreciated!**
 
-### Author
+## 🛠️ Author & Community  
 
-![Author Image](https://imgur.com/f4rBnpK.gif)
+This project is crafted by **[Harshhaa](https://github.com/NotHarshhaa)** 💡.  
+I’d love to hear your feedback! Feel free to share your thoughts.  
+
+📧 **Connect with me:**
+
+- **GitHub**: [@NotHarshhaa](https://github.com/NotHarshhaa)  
+- **Blog**: [ProDevOpsGuy](https://blog.prodevopsguy.xyz)  
+- **Telegram Community**: [Join Here](https://t.me/prodevopsguy)  
+- **LinkedIn**: [Harshhaa Vardhan Reddy](https://www.linkedin.com/in/harshhaa-vardhan-reddy/)  
+
+---
+
+### 📢 Stay Connected  
+
+![Follow Me](https://imgur.com/2j7GSPs.png)
