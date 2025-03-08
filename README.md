@@ -16,6 +16,7 @@ The Kubernetes Learning Roadmap is constantly updated with new content, so you c
 - [Kubernetes Learning Prerequisites](#kubernetes-learning-prerequisites)
 - [Learn Kubernetes Architecture](#learn-kubernetes-architecture)
 - [$1000+ Free Cloud Credits to Launch Clusters](#1000-free-cloud-credits-to-launch-clusters)
+- [The Best Resources to Learn Kubernetes Online](#the-best-resources-to-learn-kubernetes-online)
 - [Learn Kubernetes Cluster Setup & Administration](#learn-kubernetes-cluster-setup--administration)
 - [Understand KubeConfig File](#understand-kubeconfig-file)
 - [Understand Kubernetes Objects And Resources](#understand-kubernetes-objects-and-resources)
@@ -99,6 +100,8 @@ Before jumping into learning kubernetes, you need to have a fair amount of knowl
     - Virtual Interfaces
     - Overlay networking
 
+![prerequisites](https://imgur.com/USHAHYZ.png)
+
 ## Learn Kubernetes Architecture
 
 Understanding Kubernetes architecture is not an easy task. The system has many moving parts that need to be understood in order for you to get a grip on what’s happening beneath the surface. While learning architecture, you will come across the concepts we discuss in the prerequisites.
@@ -134,6 +137,42 @@ Deploying big clusters on the cloud could be expensive. So make use of the follo
 Use one account at a time. Once the credits are expired. move to the next account. You need to keep a watch on your credits as well as expiry. Or else you could get charged. Also, check the terms and instance usage limits if any.
 
 Also, setting up servers on this platform is very easy and every cloud provider had extensive documentation to get started.
+
+---
+
+## The Best Resources to Learn Kubernetes Online
+
+Here are some of the best online resources to learn Kubernetes practically:  
+
+### 1️. The Official Kubernetes Basics Tutorial  
+
+The official **[Kubernetes website](https://kubernetes.io/docs/tutorials/kubernetes-basics/)** offers browser-based, hands-on tutorials powered by Katacoda scenarios. It covers:  
+
+- Kubernetes Basics  
+- Configurations  
+- Stateless & Stateful Application Deployment  
+- Services & Networking  
+- Security & Access Control  
+
+![image](https://imgur.com/xUAB1KN.png)
+
+🔹 You can also explore the **[official Kubernetes tasks](https://kubernetes.io/docs/tasks/)** for hands-on experience with real-world Kubernetes implementations. This will also help in preparing for Kubernetes certifications.  
+
+### 2️. DevOpsCube Kubernetes Tutorials  
+
+The **[DevOpsCube Kubernetes Tutorials](https://devopscube.com/category/kubernetes/)** provide 35+ hands-on guides covering:  
+
+- Kubernetes Architecture  
+- Cluster Setup & Deployments  
+- Best Practices  
+- Package & Secret Management  
+- Monitoring & Logging  
+
+### 3️. KillerCoda Interactive Tutorials  
+
+For a fully interactive **browser-based learning** experience, **[KillerCoda](https://killercoda.com/kubernetes)** offers scenario-based Kubernetes playgrounds, where you can practice commands and learn in real-time.  
+
+![image](https://imgur.com/tqMY0bz.png)
 
 ## Learn Kubernetes Cluster Setup & Administration
 
